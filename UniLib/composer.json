@@ -1,0 +1,63 @@
+{
+	"name": "rep98/unilib",
+	"description": "Micro-Framework PHP modular para soluciones rápidas y eficientes. Combina librerías ligeras para crear aplicaciones sencillas y poderosas en tiempo récord. Perfecto para desarrolladores que buscan velocidad, simplicidad y flexibilidad sin comprometer el rendimiento.",
+	"license": "MIT",
+	"type": "library",
+	"version": "1.0",
+	"keywords": [
+        "microframework",
+        "rest",
+        "router",
+        "fast",
+        "psr7"
+    ],
+    "homepage": "https://unilib.vzlaweb.com",
+    "author": {
+        "name": "Robert Pérez",
+        "email": "robertperez@vzlaweb.com",
+        "homepage": "https://rep98.vzlaweb.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "UniLib\\": "src/"
+        },
+    	"files":[
+    		"src/helpers.php"
+    	]
+    },
+    "autoload-dev": {
+    	"psr-4": {
+            "UniLib\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+    	"php": "^8.2",
+    	"ext-json": "*",
+		"vlucas/phpdotenv": "^5.6",
+		"catfan/medoo": "^2.1",
+		"pecee/simple-router": "^5.4",
+		"twig/twig": "^3.14",
+		"league/config": "^1.2",
+		"league/flysystem": "^3.29",
+		"monolog/monolog": "^3.7",
+		"twig/html-extra": "*",
+		"twig/intl-extra": "^3.13",
+		"twig/cssinliner-extra": "^3.13",
+		"twig/markdown-extra": "^3.13",
+		"league/html-to-markdown": "^5.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "start": "php -S localhost:8080",
+        "test": "phpunit"  
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^11.4"
+	}
+}

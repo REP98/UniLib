@@ -1,0 +1,25 @@
+{
+    "name": "rep98/unilib-template",
+    "description": "Plantilla Rápida para el uso de UniLib",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "REP98",
+            "email": "delfinmundo@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "path",
+          "url": "../UniLib"
+        }
+    ],
+    "require": {
+        "rep98/unilib": "*"
+    },
+    "scripts": {
+        "start": "php -S localhost:8080",
+        "test": "phpunit"  
+    }
+}
