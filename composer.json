@@ -46,11 +46,6 @@
 		"twig/markdown-extra": "^3.13",
 		"league/html-to-markdown": "^5.1"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "scripts": {
