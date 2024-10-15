@@ -1,6 +1,0 @@
-composer.phar
-/vendor/
-*.lock
-*.log
-*.sqlite*
-*.db
